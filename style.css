@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: justify;
+}
+.op1{
+    background-color: aqua;
+}
+
+
+
+.op3::before{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+}
+.op3::after{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+}
+.op3{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    background-color: whitesmoke;
+}
+.op3 .linklearn{
+    margin-left: 3%;
+}
+.op3 .date{
+    margin-top: 40px;
+    padding-left: 20px;
+}
+.bodycenter{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;
+    height: 100%;
+    position: relative;
+    background-color: antiquewhite;
+    display: flex;
+}
+.bodycenter .bodycenter1{
+    margin-left: 20px;
+    width: 68%;
+    text-align: justify;
+    position: relative;
+}
+.bodycenter .bodycenter0{
+    width: 2%;
+}
+.bodycenter .bodycenter2{
+    margin-left: 20px;
+    width: 24%;
+    height: 1000px;
+    background-color:antiquewhite;
+    position: relative;
+}
+.bodycenter .thegioi{
+    text-decoration: none;
+}
+
+.bodycenter .img{
+    margin-top: 20px;
+    width: 290px;
+    position: absolute;
+    height: 160px;
+}
+
+.bodycenter .small_img{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 27px;
+}
+.bodycenter .text{
+    position: absolute;
+    margin-top: 27px;
+    margin-left: 65px;
+    text-decoration: none;
+}
+.bodycenter .imgputin{
+    width: 100%;
+}
+.bodycenter .chuthich{
+    margin-left: 20%;
+}
+.button-link {
+    color: #333;
+    background-color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 3px 6px;
+    border: 2px solid #333 ;
+    /* Bỏ gạch chân mặc định của thẻ a */
+    text-decoration: none;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 150px;
+}
+
+.button-link:hover {
+    color: #fff;
+    background-color: #333;
+}
+.bodycenter2 .tieude1{
+    text-decoration: none;
+    display: block;
+    margin-top: 190px;
+}
+.bodycenter2 .anh1{
+    width: 290px;
+    height: 160px;
+}
+.bodycenter2 .anh2{
+    width: 290px;
+    height: 160px;
+}
+.link1:hover{
+    color: blue;
+}
