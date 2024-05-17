@@ -4,12 +4,6 @@
     text-decoration: none;
     text-align: justify;
 }
-.op1{
-    background-color: aqua;
-}
-
-
-
 .op3::before{
     content: "";
     display: block;
@@ -35,34 +29,85 @@
     margin-top: 40px;
     padding-left: 20px;
 }
+/* body */
 .bodycenter{
     margin-left: 2%;
     margin-right: 2%;
     width: 96%;
     height: 100%;
     position: relative;
-    background-color: antiquewhite;
+    background-color: white;
     display: flex;
 }
+/* body1 */
 .bodycenter .bodycenter1{
     margin-left: 20px;
     width: 68%;
     text-align: justify;
     position: relative;
+    margin-right: 2%;
 }
-.bodycenter .bodycenter0{
-    width: 2%;
+
+.thelast {
+    display: flex;
+    padding: 12px;
+    border: #ccc solid 0.5px;
+    margin: 15px 0px;
 }
+.thelast .lastanhcen1{
+    width: 199px;
+    height: 117px;
+    padding-right: 18px;
+}
+.tieudeanhcuoi1{
+    padding-bottom:10px;
+}
+
+.comment-section {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.comment-form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.comment-form button {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.comment-form button:hover {
+    background-color: #0056b3;
+}
+
+.comment {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.tacgia{
+    float: right;
+}
+/* body2 */
 .bodycenter .bodycenter2{
     margin-left: 20px;
     width: 24%;
     height: 1000px;
-    background-color:antiquewhite;
+    background-color:white;
     position: relative;
 }
-.bodycenter .thegioi{
-    text-decoration: none;
-}
+
 
 .bodycenter .img{
     margin-top: 20px;
@@ -122,3 +167,169 @@
 .link1:hover{
     color: blue;
 }
+/* footer */
+
+.footer{
+    background-color: #185C98;
+    width: 100%;
+    height: 333px;
+}
+/* Khối đầu */
+.footer .foot-first{
+    display: flex;
+}
+/* Khối đầu 1 */
+.footer .ff1{
+    width: 10%;
+    margin-top:10px;
+    margin-left: 35px;
+}
+.ff1-1{
+    margin-bottom: 15px;
+}
+.ff1-2{
+    margin-bottom: 15px;
+}
+/* Khối đầu 2 */
+.footer .ff2{
+    width: 10%;
+    margin-top:10px;
+    
+}
+.ff2-1{
+    margin-bottom: 15px;
+}
+.ff2-2{
+    margin-bottom: 15px;
+}
+/* Khối đầu 3 */
+.footer .ff3{
+    width: 10%;
+    margin-top:10px;
+ 
+}
+.ff3-1{
+    margin-bottom: 15px;
+}
+.ff3-2{
+    margin-bottom: 15px;
+}
+/* Khối đầu 4 */
+.footer .ff4{
+    width: 10%;
+    margin-top:10px;
+   
+}
+.ff4-1{
+    margin-bottom: 15px;
+}
+.ff4-2{
+    margin-bottom: 15px;
+}
+/* Khối đầu 5 */
+.footer .ff5{
+    width: 10%;
+    margin-top:10px;
+}
+.ff5-1{
+    margin-bottom: 15px;
+}
+.ff5-2{
+    margin-bottom: 15px;
+}
+/* Khối đầu 6 */
+.footer .ff6{
+    width: 10%;
+    margin-top:10px;
+}
+.ff6-1{
+    margin-bottom: 15px;
+}
+.ff6-2{
+    margin-bottom: 15px;
+}
+/* Khối đầu 7 */
+.footer .ff7{
+    width: 10%;
+    margin-top:10px;
+}
+.ff7-1{
+    margin-bottom: 15px;
+}
+.ff7-2{
+    margin-bottom: 15px;
+}
+/* Khối đầu 8 */
+.footer .ff8{
+    width: 15%;
+    margin-top:10px;
+    padding-right: 20px;
+}
+.ff8-1{
+    margin-bottom: 15px;
+}
+.ff8-2{
+    margin-bottom: 15px;
+}
+/* Khối đầu 9 */
+.footer .ff9{
+    width: 10%;
+    margin-top:10px;
+    padding-right: 20px;
+}
+.ff9-1{
+    margin-bottom: 15px;
+}
+.ff9-2{
+    margin-bottom: 15px;
+}
+.tenf{
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+}
+.divider {
+    display: block;
+    width: 92%;
+    margin-right: 46px;
+    margin-left: 35px;
+    height: 1px;
+    background: rgba(0, 0, 0, .2);
+}
+.foot-second{
+    margin-left: 25px;
+    margin-right: 46px;
+    height: 200px;
+    display: flex;
+}
+.fs1{
+    width: 190px;
+    height: 200px;
+    padding-right: 50px;
+}
+.fs1-1{
+    margin-top: 55px;
+    margin-bottom: 10px;
+}
+.fs2{
+    padding-left: 5px;
+}
+.fs2-1{
+    display: flex;
+    margin-top: 25px;
+}
+.fs2-1-1{
+    padding-right: 120px;
+}
+.certi{
+    width: 120px;
+    height: 50px;
+}
+.fs2-2{
+    margin-top: 8px ;
+}
+.foot-third{
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
